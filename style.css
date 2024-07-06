@@ -1,0 +1,27 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #e0e0e0;
+}
+
+h1 {
+    color: #333;
+}
+
+.shaded-box {
+    background-color: #ffffff; /* Light gray background */
+    border: 1px solid #ccc; /* Optional border */
+    padding: 15px; /* Padding inside the box */
+    margin: 20px 0; /* Margin above and below the box */
+    border-radius: 20px; /* Rounded corners */
+}
+
+p {
+    margin: 0 0 10px; /* Space between paragraphs within the box */
+}
+
+p:last-child {
+    margin-bottom: 0; /* Remove bottom margin for the last paragraph in the box */
+}
